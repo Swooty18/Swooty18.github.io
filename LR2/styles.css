@@ -1,0 +1,66 @@
+.inline{
+      display: flex;
+  }
+.kar{
+    width:100px; 
+    height:100px;
+}
+span{
+    font-size: 25px;
+    font-weight:  bold;
+}
+
+.number{
+    font-size: 20px;
+    font-weight: normal;
+
+}
+.menu-main {
+    list-style: none;
+    padding: 0 30px;
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+   
+    background: white;
+  }
+  
+  .menu-main li {display: inline-block;}
+  .menu-main a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 15px;
+    padding: 10px 30px;
+    font-family: 'PT Sans Caption', sans-serif;
+    color: #777777;
+    transition: .3s linear;
+
+  }
+  p{
+      padding:0;
+  }
+  
+  
+
+
+  
+  .menu-main a:hover {color: #F58262;}
+  
+  .struct{
+    font-size: 20px;
+    font-weight: normal;
+  }
+
+  
+  .column-reverse ol {
+    
+    list-style: none; 
+    counter-reset: li; 
+    }
+    .column-reverse li:before {
+      
+    counter-increment: li ; 
+    
+    content: counters(li,".") ". "; 
+    }
+      .column-reverse ol{ display: flex; flex-direction: column-reverse; }
